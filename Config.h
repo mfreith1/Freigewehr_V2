@@ -1,0 +1,18 @@
+// Board Pin Definitions
+#define PUSHER_RELAY_PIN 5
+#define FLYWHEEL_RELAY_PIN 4
+#define TRIGGER_SWITCH_PIN 2
+#define PUSHER_SWITCH_PIN 3
+
+// Delays
+#define PUSHER_LAG_MS 250
+#define DEBOUNCE_MS 200
+
+// Extra
+#define DARTS_PER_BURST 3
+#define ERROR_LED_PIN 13
+#define MAX_TRIGGER_PULL_COUNT 1
+#define DELAY_INCREMENT 50
+#define PUSHER_TIMEOUT 1000
+
+#define FLYWHEEL_ENABLE 1
